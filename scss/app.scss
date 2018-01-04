@@ -1,19 +1,19 @@
+//// Main Sass File
 
-// Main Sass File
-
-/* LOCAL SASS VARIABLES */ 
+//// LOCAL SASS VARIABLES
 //$bg-color: #333; //example
 
-/* OVERRIDE BOOSTRAP VARIABLES */
+//// OVERRIDE BOOSTRAP VARIABLES
 //$body-bg: $bg-color; //example
 
-/* IMPORT ALL BOOTSTRAP */
+//// IMPORT ALL BOOTSTRAP
 @import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/font-awesome/scss/font-awesome";
 
-/* CUSTOM STYLE */
-@import "includes/page-header";
+//// CUSTOM STYLE
+//@import "includes/page-header";
 @import "includes/navigationheader";
 @import "includes/navbar";
-@import "includes/jumbotron";
-@import "includes/features";
-@import "includes/page-footer";
+//@import "includes/jumbotron";
+//@import "includes/features";
+//@import "includes/page-footer";

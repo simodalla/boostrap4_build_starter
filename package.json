@@ -5,7 +5,7 @@
   "main": "Gulpfile.js",
   "scripts": {
     "build": "gulp deploy",
-    "start": "gulp",    
+    "start": "gulp",
     "test": "gulp test"
   },
   "repository": {
@@ -17,15 +17,14 @@
     "panini",
     "sass",
     "gulp"
-  ],  
-  
+  ],
   "author": "Bass Jobsen",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "4.0.0-beta.2",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.2.1",
-    "popper.js": "^1.12.9"
+    "font-awesome": "4.7.0",
+    "jquery": "3.2.1",
+    "popper.js": "1.12.3"
   },
   "devDependencies": {
     "autoprefix": "^0.1.4",
