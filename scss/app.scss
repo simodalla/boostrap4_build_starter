@@ -3,6 +3,10 @@
 //// LOCAL SASS VARIABLES
 //$bg-color: #333; //example
 
+//$company-primary-color: #f80; //orange;
+// Page Header
+
+
 //// OVERRIDE BOOSTRAP VARIABLES
 //$body-bg: $bg-color; //example
 
@@ -11,9 +15,16 @@
 @import "node_modules/font-awesome/scss/font-awesome";
 
 //// CUSTOM STYLE
-//@import "includes/page-header";
+$darkest-color: $black; // black;
+$lightest-color:$white; // white;
+$company-primary-color: $orange; //orange;
+$page-header-background: $darkest-color;
+$page-footer-background: $company-primary-color;
+
+@import "includes/page-header";
 @import "includes/navigationheader";
 @import "includes/navbar";
 //@import "includes/jumbotron";
 //@import "includes/features";
 //@import "includes/page-footer";
+
